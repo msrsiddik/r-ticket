@@ -1,0 +1,25 @@
+### GET request to example server
+GET http://localhost:3000
+
+###
+
+### Define variables
+@host = localhost
+@port = 3000
+
+### Send Request
+POST http://{{host}}:{{port}}
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+
+p=2025-3-7&
+h=8&
+m=0&
+s=0&
+ms=0&
+sms=0&
+r=false&
+cn=&
+c=0&
+mx=4
+
+###
